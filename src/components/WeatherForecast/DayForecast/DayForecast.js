@@ -12,9 +12,9 @@ export default (props) => {
     <div className={dayForecast.dayForecast}>
       <div className="d-flex justify-content-around text-muted">{forecast.day}</div>
       <div className={iconClasses} />
-      <div className="d-flex justify-content-around text-muted">
+      <div className="d-flex justify-content-around">
         <span>{forecast.high} {props.units}&deg;</span>
-        <span>{forecast.low} {props.units}&deg;</span>
+        <span className="text-muted">{forecast.low} {props.units}&deg;</span>
       </div>
     </div>
   );

@@ -60,7 +60,7 @@ class WeatherForecast extends Component {
           <Button className="ml-3" size="sm" onClick={this.handleUnitChange}>Units: {this.props.units}</Button>
         </Container>
         <FullScreenBackground className="bg-primary py-3 my-3">
-          <h1>{this.props.cityName}</h1>
+          <h1 className="text-white">{this.props.cityName}</h1>
         </FullScreenBackground>
         <Container>
           <div className="d-flex justify-content-between">
