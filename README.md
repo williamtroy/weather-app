@@ -7,6 +7,8 @@
 3. Once a city has been found, the corresponding weather data is displayed.
 4. Clicking on the return button allows for additional searches.
 
+![Demo Gif](./weatherApp.gif?raw=true "Title")
+
 ### Notable interactions
 * Measurement units may be toggled between the default imperial and metric units.
 * A city weather page may be bookmarked.
