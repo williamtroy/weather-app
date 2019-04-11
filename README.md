@@ -29,5 +29,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Since the app was built on top of create-react-app, the easiest way to deploy is to:
+
+1. npm run build
+2. npm install -g serve
+3. serve -s build
+
+A number of other solutions for deployment may be found here: https://facebook.github.io/create-react-app/docs/deployment
 
