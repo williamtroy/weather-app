@@ -1,0 +1,69 @@
+$row1x: -20px;
+$row2x: -171px;
+$row3x: -326px;
+$row4x: -475px;
+$col1y: -20px;
+$col2y: -170px;
+$col3y: -322px;
+$col4y: -471px;
+
+.dayForecast {
+  width: 126px;
+  display: inline-block;
+}
+
+.icon {
+  height: 126px;
+  width: 126px;
+  max-width: 126px;
+  overflow: hidden;
+  background: url("../../../assets/weather-forecast-icon-24.jpg") no-repeat;
+  &.cloudy {
+    background-position: $col1y $row1x;
+  }
+  &.cloudyWithSun {
+    background-position: $col2y $row1x;
+  }
+  &.veryCloudy {
+    background-position: $col3y $row1x;
+  }
+  &.thunderstorms {
+    background-position: $col4y $row1x;
+  }
+  &.lightRain {
+    background-position: $col1y $row2x;
+  }
+  &.rain {
+    background-position: $col2y $row2x;
+  }
+  &.lightSnow {
+    background-position: $col3y $row2x;
+  }
+  &.snow {
+    background-position: $col4y $row2x;
+  }
+  &.showers {
+    background-position: $col1y $row3x;
+  }
+  &.showersWithSun {
+    background-position: $col2y $row3x;
+  }
+  &.sunny {
+    background-position: $col3y $row3x;
+  }
+  &.day {
+    background-position: $col4y $row3x;
+  }
+  &.night {
+    background-position: $col1y $row4x;
+  }
+  &.windy {
+    background-position: $col2y $row4x;
+  }
+  &.humid {
+    background-position: $col3y $row4x;
+  }
+  &.umbrella {
+    background-position: $col4y $row4x;
+  }
+}
